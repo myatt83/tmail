@@ -504,7 +504,7 @@ e
 .
       --
       # example
-      mail['Content-Disposition'] = 'attachement; filename="test.rb"'
+      mail['Content-Disposition'] = 'attachment; filename="test.rb"'
       p mail.disposition   # "attachment"
       --
 
